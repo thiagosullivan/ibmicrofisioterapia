@@ -4,7 +4,7 @@ import Banner from '../components/banner/Banner';
 import Header from '../components/header/Header';
 import SectionFour from '../components/sectionFour/SectionFour';
 import SectionThree from '../components/sectionThree/SectionThree';
-import SectionTwo from '../components/sectionTwo/sectionTwo';
+import SectionTwo from '../components/sectionTwo/SectionTwo';
 
 export default function Home() {
   return (

@@ -42,6 +42,7 @@ function Header() {
         <div className='bottomheader__content'>
           <Image
             src={logoHeader}
+            alt="Logo IBM"
           />
           <Link href="/">          
             <a>Inscreva-se já!</a>
