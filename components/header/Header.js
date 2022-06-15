@@ -39,7 +39,7 @@ function Header() {
         </div>
       </TopHeader>
       <BottomHeader>
-        <div className='topbottom__content'>
+        <div className='bottomheader__content'>
           <Image
             src={logoHeader}
           />

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-
+    box-shadow: 0 9px 10px rgba(0,0,0,.14);
+    position: relative;
 `;
 
 export const TopHeader = styled.header`
@@ -22,7 +23,7 @@ export const TopHeader = styled.header`
                 display: flex;
                 align-items: center;
                 padding: .5rem 0;
-                margin-right: 1rem;
+                margin-right: 1.5rem;
                 color: ${({theme}) => theme.white};
                 
                 span {
@@ -59,10 +60,9 @@ export const TopHeader = styled.header`
     }
 `;
 
-export const BottomHeader = styled.header`
-    box-shadow: 0 9px 10px rgba(0,0,0,.14);
+export const BottomHeader = styled.header`    
     
-    .topbottom__content {
+    .bottomheader__content {
         max-width: 1350px;
         margin: 0 auto;
         padding: 1rem;
@@ -77,6 +77,11 @@ export const BottomHeader = styled.header`
             font-family: 'Inika', serif;
             font-size: 1.5rem;
             text-transform: uppercase;
+            transition: all 150ms ease-in;
+
+            &:hover {
+                box-shadow: 0 2px 5px rgba(0,0,0,.40);
+            }
         }
     }
 `;
