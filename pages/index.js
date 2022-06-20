@@ -2,7 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Banner from '../components/banner/Banner';
 import Header from '../components/header/Header';
+import SectionFive from '../components/sectionFive/SectionFive';
 import SectionFour from '../components/sectionFour/SectionFour';
+import SectionSix from '../components/sectionSix/SectionSix';
 import SectionThree from '../components/sectionThree/SectionThree';
 import SectionTwo from '../components/sectionTwo/SectionTwo';
 
@@ -24,6 +26,8 @@ export default function Home() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <SectionFive />
+        <SectionSix />
       </main>
 
       <footer>
