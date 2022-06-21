@@ -39,11 +39,22 @@ export const SectioFiveContainer = styled.section`
         .secFive__bottom {
             display: flex;
             justify-content: space-around;
+
+            @media screen and (max-width: 980px){
+                flex-wrap: wrap;
+            }
+
+            @media screen and (max-width: 850px){
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
         }
 
         a {
             padding: 12px 50px;
             max-width: 300px;
+            width: 100%;
             border-radius: 5px;
             background-color: ${({theme}) => theme.secondary};
             font-family: 'Inika', serif;
@@ -57,6 +68,15 @@ export const SectioFiveContainer = styled.section`
                 box-shadow: 0 2px 5px rgba(0,0,0,.40);
             }
         }
+
+        @media screen and (max-width: 500px){
+            a {
+                margin-top: 2rem;
+                font-size: 1rem;
+                text-align: center;
+                max-width: 250px;
+            }
+        }
     }
 `;
 
@@ -67,6 +87,20 @@ export const SecFiveCard = styled.div`
     border-radius: 10px;
     padding: 2.5rem;
     text-align: center;
+    margin-right: 1rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media screen and (max-width: 980px){
+        margin-bottom: 1rem;
+    }
+
+    @media screen and (max-width: 850px){
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
 
     h4 {
         font-family: 'Inika', serif;

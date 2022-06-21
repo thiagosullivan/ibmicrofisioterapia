@@ -16,8 +16,14 @@ export const TopHeader = styled.header`
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width: 650px){
+            flex-direction: column;
+            padding: .5rem 1rem !important;
+        }
+
         .header__contact {
             display: flex;
+            flex-wrap: wrap;
 
             a {
                 display: flex;
@@ -39,6 +45,14 @@ export const TopHeader = styled.header`
         .header__social {
             display: flex;
             align-items: center;
+
+            @media screen and (max-width: 500px){
+                justify-content: flex-start;
+                width: 100%;
+                border-top: 1px solid ${({theme}) => theme.white};
+                padding-top: .5rem;
+                margin-top: .5rem;
+            }
 
             a {
                 font-size: 1.5rem;
@@ -81,6 +95,15 @@ export const BottomHeader = styled.header`
 
             &:hover {
                 box-shadow: 0 2px 5px rgba(0,0,0,.40);
+            }
+        }
+
+        @media screen and (max-width: 500px){
+            flex-direction: column;
+
+            a {
+                margin-top: 2rem;
+                font-size: 1rem;
             }
         }
     }

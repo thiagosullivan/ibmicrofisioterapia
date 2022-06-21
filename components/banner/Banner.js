@@ -8,8 +8,8 @@ function Banner() {
   return (
     <BannerContainer>
         <div className='banner__content'>
-            <Image src={bannerOne} alt="Banner 1"/>
-            <Image src={bannerTwo} alt="Banner 2"/>
+          <Image src={bannerOne} alt="Banner 1"/>
+          <Image src={bannerTwo} alt="Banner 2"/>
         </div>
     </BannerContainer>
   )

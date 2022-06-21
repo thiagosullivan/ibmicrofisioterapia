@@ -15,6 +15,10 @@ export const SectionFourContainer = styled.section`
     .secFour__bottom {
         display: flex;
         justify-content: center;
+
+        @media screen and (max-width: 1200px){
+            flex-wrap: wrap;
+        }
     }
 `;
 
@@ -31,6 +35,10 @@ export const SecFourCard = styled.div`
     justify-content: space-between;
     text-align: center;
     padding: 1.5rem;
+
+    @media screen and (max-width: 1200px){
+        margin-bottom: 1rem;
+    }
 
     h4 {
         color: ${({theme}) => theme.primary};

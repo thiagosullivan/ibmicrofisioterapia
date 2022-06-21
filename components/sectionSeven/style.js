@@ -14,7 +14,7 @@ export const SecSevenContainer = styled.section`
             font-family: 'Inika', serif;
             font-size: 2.25rem;
             margin-bottom: 8rem;
-        }
+        }       
 
         .secSeven__text {
             background-color: ${({theme}) => theme.white};
@@ -26,6 +26,11 @@ export const SecSevenContainer = styled.section`
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media screen and (max-width: 780px){
+                max-width: 350px;
+                height: 350px;
+            }
             
             .secSeven__text__content {
                 transform: rotate(-45deg);
@@ -59,6 +64,21 @@ export const SecSevenContainer = styled.section`
     
                     &:hover {
                         box-shadow: 0 2px 5px rgba(0,0,0,.40);
+                    }
+                }
+
+                @media screen and (max-width: 780px){
+                    h3 {
+                        text-align: center;
+                    }
+                }
+
+                @media screen and (max-width: 500px){
+                    a {
+                        margin-top: 2rem;
+                        font-size: 1rem;
+                        text-align: center;
+                        max-width: 250px;
                     }
                 }
             }

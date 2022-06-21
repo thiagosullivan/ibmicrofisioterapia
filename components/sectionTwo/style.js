@@ -14,7 +14,12 @@ export const SecTwoContainer = styled.section`
 
     .secTwo__bottom {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;        
+        
+
+        @media screen and (max-width: 1200px){
+            flex-wrap: wrap;
+        }
     }
 `;
 
@@ -26,6 +31,11 @@ export const SecTwoCard = styled.div`
     display: flex;
     align-items: center;
     padding: .5rem;
+    margin: 1rem 1rem 0;
+
+    &:last-child {
+        margin-right: 0;
+    }
 
     .secTwo__icon {
         background-color: ${({theme}) => theme.fourth};
@@ -37,6 +47,7 @@ export const SecTwoCard = styled.div`
     
     p {
         max-width: 275px;
+        width: 100%; 
         font-family: 'Montserrat', sans-serif;
         font-size: 0.9rem;
     }

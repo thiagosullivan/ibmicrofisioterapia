@@ -27,6 +27,10 @@ export const SectionThreeContainer = styled.section`
         display: flex;
         justify-content: center;
         font-family: 'Montserrat', sans-serif;
+
+        @media screen and (max-width: 1100px){
+            flex-wrap: wrap;
+        }
     }
 `;
 
@@ -41,6 +45,10 @@ export const SecThreeCard = styled.section`
     align-items: center;
     text-align: center;
     padding: 1.5rem;
+
+    @media screen and (max-width: 1100px){
+        margin-bottom: 1rem;
+    }
 
     svg {
         font-size: 2rem;

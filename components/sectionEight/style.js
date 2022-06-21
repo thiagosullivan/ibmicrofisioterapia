@@ -42,6 +42,7 @@ export const SecEightContainer = styled.section`
                 p {
                     background-color: ${({theme}) => theme.grey};
                     padding: 2rem;
+                    line-height: 1.3;
                 }
             }
         }
@@ -60,6 +61,15 @@ export const SecEightContainer = styled.section`
 
             &:hover {
                 box-shadow: 0 2px 5px rgba(0,0,0,.40);
+            }
+        }
+
+        @media screen and (max-width: 500px){
+            a {
+                margin-top: 2rem;
+                font-size: 1rem;
+                text-align: center;
+                max-width: 250px;
             }
         }
     }

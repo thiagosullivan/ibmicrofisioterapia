@@ -14,6 +14,11 @@ export const SecSixContainer = styled.section`
     .secSix__bottom {
         display: flex;
         justify-content: space-evenly;
+
+        @media screen and (max-width: 980px){
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     a {
@@ -32,6 +37,15 @@ export const SecSixContainer = styled.section`
             box-shadow: 0 2px 5px rgba(0,0,0,.40);
         }
     }
+
+    @media screen and (max-width: 500px){
+        a {
+            margin-top: 2rem;
+            font-size: 1rem;
+            text-align: center;
+            max-width: 250px;
+        }
+    }
 `;
 
 export const SecSixCard = styled.div`
@@ -39,6 +53,16 @@ export const SecSixCard = styled.div`
     max-width: 500px;
     border-radius: 10px;
     padding: 2rem;
+    margin-right: 1rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media screen and (max-width: 980px){
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 
     .sixCard__top {
         display: flex;
@@ -48,7 +72,12 @@ export const SecSixCard = styled.div`
         img {
             width: 100px;
             height: 100px;
-            border-radius: 50%;            
+            border-radius: 50%;
+            
+            @media screen and (max-width: 550px){
+                width: 65px !important;
+                height: 65px !important;
+            }
         }
 
         div {
@@ -56,15 +85,24 @@ export const SecSixCard = styled.div`
             flex-direction: column;
             margin-left: 1rem;
 
+            @media screen and (max-width: 550px){
+                h4 {
+                    font-size: 1.5rem !important;
+                }
+                span {
+                    font-size: 1rem !important;
+                }
+            }
+
             h4 {
-            color: ${({theme}) => theme.third};
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2rem;
-            font-weight: 700;
+                color: ${({theme}) => theme.third};
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2rem;
+                font-weight: 700;
             }
             span {
-            text-transform: uppercase;
-            font-size: 1.2rem;
+                text-transform: uppercase;
+                font-size: 1.2rem;
             }             
         }
     }

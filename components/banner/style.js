@@ -8,5 +8,10 @@ export const BannerContainer = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media screen and (max-width: 600px){
+            flex-direction: column;
+            align-items: center;
+        }
     }
 `;
