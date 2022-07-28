@@ -27,7 +27,7 @@ export const SecTwoCard = styled.div`
     max-width: 415px;
     width: 100%;
     border: 1px solid ${({theme}) => theme.greythird};
-    border-radius: 45px;
+    border-radius: 90px;
     display: flex;
     align-items: center;
     padding: .5rem;
@@ -39,16 +39,27 @@ export const SecTwoCard = styled.div`
 
     .secTwo__icon {
         background-color: ${({theme}) => theme.fourth};
-        width: 70px;
-        height: 70px;
+        
+        /* background-size: cover;
+        background-position: center; */
+        width: 140px;
+        height: 140px;
         border-radius: 50%;
         margin-right: 1.25rem;
+        position: relative;
     }
     
     p {
-        max-width: 275px;
-        width: 100%; 
+        /* max-width: 275px;
+        width: 100%;  */
         font-family: 'Montserrat', sans-serif;
         font-size: 0.9rem;
     }
 `;
+
+export const SectionTwoImg = styled.div`
+    background-image: url(${props => props.imgUrl.src});
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+`

@@ -1,22 +1,32 @@
 import React from 'react'
-import { SecTwoCard, SecTwoContainer } from './style'
+import { SectionTwoImg, SecTwoCard, SecTwoContainer } from './style';
+import Rodolfo from '../../assets/Rodolfo.png';
+import Rodrigo from '../../assets/Rodrigo.png';
+import Rosana from '../../assets/Rosana.png';
+import Image from 'next/image';
 
 function SectionTwo() {
   return (
     <SecTwoContainer>
-        <h2>Faça parte do maior grupo de <br/> educação superior do Brasil.</h2>
+        <h2>O curso contará com a participação <br/>de mais três profissionais.</h2>
         <div className='secTwo__bottom'>
             <SecTwoCard>
-                <div className='secTwo__icon'></div>
-                <p>Mais de  87 cursos com notas 4 e 5 no MEC.</p>
+                <div className='secTwo__icon'>
+                    <Image src={Rodolfo} layout="fill"/> 
+                </div>
+                <p>Dr. Rodolfo Biazi</p>
             </SecTwoCard>
             <SecTwoCard>
-                <div className='secTwo__icon'></div>
-                <p>Aqui as aulas não param. Nossas unidades seguem todas as orientações de segurança da OMS.</p>
+                <div className='secTwo__icon'>
+                    <Image src={Rodrigo} layout="fill"/> 
+                </div>
+                <p>Dr. Rodrigo Rabbottini</p>
             </SecTwoCard>
             <SecTwoCard>
-                <div className='secTwo__icon'></div>
-                <p>A plataforma de ensino digital mais elogiada pelos alunos.</p>
+                <div className='secTwo__icon'>
+                    <Image src={Rosana} layout="fill"/> 
+                </div>
+                <p>Dra. Rosana Ancona Mateus</p>
             </SecTwoCard>
         </div>
     </SecTwoContainer>

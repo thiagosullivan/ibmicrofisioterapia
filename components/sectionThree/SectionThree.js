@@ -1,52 +1,36 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaRegBuilding } from 'react-icons/fa';
+import { AiOutlineCalendar } from 'react-icons/ai';
 import { SecThreeCard, SectionThreeContainer } from './style';
 
 function SectionThree() {
   return (
     <SectionThreeContainer>
         <div className='secThree__content'>
-            <h2>Modelos de Ensino</h2>
-            <p>Aqui, você encontra o modelo de ensino que mais combina com a sua rotina.</p>
+            <h2>Calendário do Curso</h2>
+            <p>Será ministrado em São Paulo-SP</p>
         </div>
         <div className='secThree__bottom'>
             <SecThreeCard>
-                <FaRegBuilding />
-                <h4>Presencial</h4>
-                <span><strong>4</strong> a <strong>5 dias</strong> de aulas presenciais por semana.</span>
+                <AiOutlineCalendar />
+                <h4>16/09</h4>
+                <span>Aula magna <br/> &#40;aberto a todos&#41;</span>
                 <Link href="/">
                     <a>Increva-se já!</a>
                 </Link>
             </SecThreeCard>
             <SecThreeCard>
-                <FaRegBuilding />
-                <h4>Presencial</h4>
-                <span><strong>4</strong> a <strong>5 dias</strong> de aulas presenciais por semana.</span>
+                <AiOutlineCalendar />
+                <h4>17/09 e 18/09</h4>
+                <span>Atualização P9 <br/> &#40;obrigatório já ter feito P9&#41;</span>
                 <Link href="/">
                     <a>Increva-se já!</a>
                 </Link>
             </SecThreeCard>
             <SecThreeCard>
-                <FaRegBuilding />
-                <h4>Presencial</h4>
-                <span><strong>4</strong> a <strong>5 dias</strong> de aulas presenciais por semana.</span>
-                <Link href="/">
-                    <a>Increva-se já!</a>
-                </Link>
-            </SecThreeCard>
-            <SecThreeCard>
-                <FaRegBuilding />
-                <h4>Presencial</h4>
-                <span><strong>4</strong> a <strong>5 dias</strong> de aulas presenciais por semana.</span>
-                <Link href="/">
-                    <a>Increva-se já!</a>
-                </Link>
-            </SecThreeCard>
-            <SecThreeCard>
-                <FaRegBuilding />
-                <h4>Presencial</h4>
-                <span><strong>4</strong> a <strong>5 dias</strong> de aulas presenciais por semana.</span>
+                <AiOutlineCalendar />
+                <h4>19/09 a 23/09</h4>
+                <span>Curso Completo P9 <br/> &#40;obrigatório já ter feito P7 e P8&#41;</span>
                 <Link href="/">
                     <a>Increva-se já!</a>
                 </Link>

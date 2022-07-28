@@ -5,39 +5,25 @@ import { SecFourCard, SectionFourContainer } from './style';
 function SectionFour() {
   return (
     <SectionFourContainer>
-        <h2>Como ingressar na Estácio?</h2>
+        <h2>Qual o perfil necessário para inscrição em cada dia do curso?</h2>
         <div className='secFour__bottom'>
             <SecFourCard>
-                <h4>Ingresso Simplificado</h4>
-                <p>Comece a sua graduação de uma forma simples e rápida: use apenas seu histórico escolar!</p>
+                <h4>1</h4>
+                <p>Aula Magna - Todos os&#40;as&#41; profissionais de saúde podem participar</p>
                 <Link href="/">
                     <a>Increva-se Já!</a>
                 </Link>
             </SecFourCard>
             <SecFourCard>
-                <h4>Vestibular</h4>
-                <p>Presencial ou online, tenha a liberdade de escolher o dia e a hora da sua prova.</p>
+                <h4>2</h4>
+                <p>Atualização P9 - Exclusivo para alunos&#40;as&#41; que já tenham feito o P9. Estes&#40;as&#41; também poderão adquirir e participar do P9 completo.</p>
                 <Link href="/">
                     <a>Increva-se Já!</a>
                 </Link>
             </SecFourCard>
             <SecFourCard>
-                <h4>Enem</h4>
-                <p>Use sua nota para entrar na Estácio! Notas acima de 300 garantem bolsas durante o curso todo.</p>
-                <Link href="/">
-                    <a>Increva-se Já!</a>
-                </Link>
-            </SecFourCard>
-            <SecFourCard>
-                <h4>Transferência</h4>
-                <p>Vem concluir seu curso com a gente sem precisar pagar nada pela transferência! Aproveite todas as matérias cursadas!</p>
-                <Link href="/">
-                    <a>Increva-se Já!</a>
-                </Link>
-            </SecFourCard>
-            <SecFourCard>
-                <h4>Segunda Graduação</h4>
-                <p>Sem necessidade de vestibular, você aproveita créditos de matérias cursadas!</p>
+                <h4>3</h4>
+                <p>P9 Completo - É preciso que o aluno&#40;a&#41; tenha feito P7 e P8.</p>
                 <Link href="/">
                     <a>Increva-se Já!</a>
                 </Link>

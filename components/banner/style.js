@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
     background: ${({theme}) => theme.fourth};
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0rem;
 
     .banner__content {
         display: flex;

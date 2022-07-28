@@ -10,7 +10,6 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Montserrat&display=swap" rel="stylesheet" />
 
         {/* Primary Meta Tags */}
-        <title>IBM - Instituto Brasileiro de Microfisioterapia</title>
         <meta name="title" content="IBM - Instituto Brasileiro de Microfisioterapia"/>
         <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"/>
 

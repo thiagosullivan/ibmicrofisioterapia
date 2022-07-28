@@ -64,6 +64,7 @@ export const SecThreeCard = styled.section`
     span {
         margin-bottom: 1rem;
         color: ${({theme}) => theme.white};
+        min-height: 57px;
     }
     a {
         background-color: ${({theme}) => theme.secondary};
