@@ -39,14 +39,16 @@ export const SecTwoCard = styled.div`
 
     .secTwo__icon {
         background-color: ${({theme}) => theme.fourth};
-        
-        /* background-size: cover;
-        background-position: center; */
+        background-position: center;
         width: 140px;
         height: 140px;
         border-radius: 50%;
         margin-right: 1.25rem;
         position: relative;
+
+        img {
+            border-radius: 50%;
+        }
     }
     
     p {
