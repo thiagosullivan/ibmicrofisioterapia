@@ -33,8 +33,8 @@ function SectionEight() {
                     )
                 })}
             </div>
-            <Link href="/">
-                <a>Increva-se Já!</a>
+            <Link href="https://api.whatsapp.com/send?phone=5543991900107&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20curso%20de%20microfisioterapia%20com%20o%20Professor%20Daniel%20Grosjean" passHref>          
+                <a target="_blank" rel="noreferrer noopener">Inscreva-se já!</a>
             </Link>
         </div>
     </SecEightContainer>
