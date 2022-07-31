@@ -16,7 +16,7 @@ function SectionSix() {
                     <Image src={Rodolfo} alt="Rodolfo" height={130} width={130}/>
                     <div>
                         <h4>Dr. Rodolfo Biazi</h4>
-                        <span>Psicologia</span>
+                        <span>Fisioterapeuta</span>
                     </div>
                 </div>
                 <div className='sixCard__txt'>
@@ -43,7 +43,7 @@ function SectionSix() {
                     <Image src={Rodrigo} alt="Rodrigo" height={130} width={130}/>
                     <div>
                         <h4>Dr. Rodrigo Rabbottini</h4>
-                        <span>Psicologia</span>
+                        <span>Fisioterapeuta</span>
                     </div>
                 </div>
                 <div className='sixCard__txt'>
@@ -66,7 +66,7 @@ function SectionSix() {
                     <Image src={Rosana} alt="Rosana" height={130} width={130}/>
                     <div>
                         <h4>Dra. Rosana Ancona Mateus</h4>
-                        <span>Psicologia</span>
+                        <span>Fisioterapeuta</span>
                     </div>
                 </div>
                 <div className='sixCard__txt'>

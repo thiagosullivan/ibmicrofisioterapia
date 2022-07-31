@@ -7,7 +7,7 @@ export const SecTwoContainer = styled.section`
 
     h2 {
         font-family: 'Inika', serif;
-        font-size: 2.26rem;
+        font-size: 1.8rem;
         text-align: center;
         margin-bottom: 2.5rem;
     }
@@ -18,7 +18,7 @@ export const SecTwoContainer = styled.section`
         align-items: flex-start;
 
         @media screen and (max-width: 1200px){
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
         }
 
         @media screen and (max-width: 980px) {
@@ -37,11 +37,17 @@ export const SecTwoContainer = styled.section`
 
     @media screen and (max-width: 1190px){
         .secTwo_col1 {
-            width: 35%;
+            /* width: 35%; */
         }
         .secTwo_col2 {
             max-width: 500px;
             width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1065px){
+        h2 {
+            min-height: 115px;
         }
     }
 
@@ -56,6 +62,7 @@ export const SecTwoContainer = styled.section`
         .secTwo_col2 {
             max-width: 600px;
             width: 100%;
+            margin: 0 auto;
         }
     }
 `;
@@ -77,8 +84,8 @@ export const SecTwoCard = styled.div`
     .secTwo__icon {
         background-color: ${({theme}) => theme.fourth};
         background-position: center;
-        width: 140px;
-        height: 140px;
+        width: 95px;
+        height: 95px;
         border-radius: 50%;
         margin-right: 2rem;
         position: relative;
@@ -100,13 +107,29 @@ export const SecTwoCard = styled.div`
             margin-right: 1rem;
         }
         a {
-            font-size: 2rem;
+            display: flex;
+            align-items: center;
             margin-top: .5rem;
+            font-weight: bold;
+
+            svg {
+                font-size: 2rem;
+                margin-right: .3rem;
+            }
         }
     }
 
+    @media screen and (max-width: 1220px){
+        width: 78%
+    }
     @media screen and (max-width: 1190px){
-        max-width: 500px;
+        .secTwo__icon {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    @media screen and (max-width: 1065px){
+        width: 100%;
     }
 `;
 

@@ -21,6 +21,7 @@ function SectionTwo() {
                         <p>Dr. Rodolfo Biazi</p>
                         <a href="https://instagram.com/drrodolfobiazi" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
+                            @drrodolfobiazi
                         </a>
                     </div>
                 </SecTwoCard>
@@ -32,6 +33,7 @@ function SectionTwo() {
                         <p>Dr. Rodrigo Rabbottini</p>
                         <a href="https://instagram.com/rodrigorabbottini" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
+                            @rodrigorabbottini
                         </a>
                     </div>                    
                 </SecTwoCard>
@@ -43,6 +45,7 @@ function SectionTwo() {
                         <p>Dra. Rosana Ancona Mateus</p>
                         <a href="https://instagram.com/rosanaancona" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
+                            @rosanaancona
                         </a>
                     </div>
                 </SecTwoCard>
