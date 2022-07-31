@@ -112,9 +112,16 @@ export const SecSixCard = styled.div`
         width: 100%;
         text-align: justify;
         line-height: 1.5;
+
+        
+    }
+
+    .sixCard__txt ul {
+        margin-top: 10px;
     }
 
     .sixCard__txt li {
         padding-left: .5rem;
+        font-style: italic;
     }
 `;

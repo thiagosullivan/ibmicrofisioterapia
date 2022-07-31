@@ -20,10 +20,11 @@ function SectionSix() {
                     </div>
                 </div>
                 <div className='sixCard__txt'>
-                    <p>Graduado em fisioterapia Pós graduado em terapia manual e postural</p>
+                    <p>Graduado em fisioterapia</p>
+                    <p>Pós graduado em terapia manual e postural</p>
                     <p>Mestre em bioengenharia</p>
-                    <p>Especializações:</p>
                     <ul>
+                        <p><strong>Especializações:</strong></p>
                         <li>- Microfisioterapia,</li>
                         <li>- Leitura biológica,</li>
                         <li>- Fisioterapia integrativa,</li>
@@ -46,10 +47,11 @@ function SectionSix() {
                     </div>
                 </div>
                 <div className='sixCard__txt'>
+                    <p>Graduação em Fisioterapia</p>
+                    <p>Pós graduado em Terapia Manual e Postural</p>
+                    <p>Pós graduado em Traumato Ortopedia e Desportiva</p>
                     <ul>
-                        <li>- Graduação em Fisioterapia </li>
-                        <li>- Pós graduado em Terapia Manual e Postural</li>
-                        <li>- Pós graduado em Traumato Ortopedia e Desportiva</li>
+                        <p><strong>Especializações:</strong></p>
                         <li>- Formação internacional em Microfisioterapia</li>
                         <li>- Formação Internacional em Leitura Biológica</li>
                         <li>- Formação Internacional em Memórias e ciclos de vida</li>
@@ -71,8 +73,8 @@ function SectionSix() {
                         <p>Graduada em fisioterapia pela UNIBAN </p>
                         <p>Pós graduada em terapia manual e postural </p>
                         <p>Pós graduada em ortopedia e traumatologia</p>
-                        <p>Especializações:</p>
                     <ul>
+                        <p><strong>Especializações:</strong></p>
                         <li>- Formação internacional em microfisioterapia</li>
                         <li>- Formação internacional em leitura biológica</li>
                         <li>- Hipnose</li>
