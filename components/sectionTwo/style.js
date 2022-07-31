@@ -15,7 +15,7 @@ export const SecTwoContainer = styled.section`
     .secTwo__bottom {
         display: flex;
         justify-content: center;        
-        align-items: center;
+        align-items: flex-start;
 
         @media screen and (max-width: 1200px){
             flex-wrap: wrap;
@@ -69,7 +69,7 @@ export const SecTwoCard = styled.div`
     align-items: center;
     padding: .5rem;
     margin: 1rem 1rem 0;
-
+    
     &:last-child {
         margin-right: 0;
     }
@@ -80,7 +80,7 @@ export const SecTwoCard = styled.div`
         width: 140px;
         height: 140px;
         border-radius: 50%;
-        margin-right: 1.25rem;
+        margin-right: 2rem;
         position: relative;
 
         img {
@@ -88,11 +88,21 @@ export const SecTwoCard = styled.div`
         }
     }
     
-    p {
-        /* max-width: 275px;
-        width: 100%;  */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 0.9rem;
+    .secTwo_text {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            margin-right: 1rem;
+        }
+        a {
+            font-size: 2rem;
+            margin-top: .5rem;
+        }
     }
 
     @media screen and (max-width: 1190px){

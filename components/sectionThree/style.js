@@ -35,7 +35,7 @@ export const SectionThreeContainer = styled.section`
 `;
 
 export const SecThreeCard = styled.section`
-    max-width: 250px;
+    max-width: 450px;
     width: 100%;
     border: 1px solid ${({theme}) => theme.fourth};
     border-radius: 10px;
@@ -43,8 +43,21 @@ export const SecThreeCard = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    text-align: left;
     padding: 1.5rem;
+
+    .secThree__txts {
+        min-height: 500px;
+    }
+
+    .secThree_title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        height: 95px;
+    }
 
     @media screen and (max-width: 1100px){
         margin-bottom: 1rem;
@@ -56,15 +69,20 @@ export const SecThreeCard = styled.section`
         color: ${({theme}) => theme.white};
     }
     h4 {
-        margin-bottom: 1rem;
         color: ${({theme}) => theme.white};
         font-size: 1.2rem;
         text-transform: uppercase;
+        text-align: center;
     }
-    span {
+    p {
         margin-bottom: 1rem;
         color: ${({theme}) => theme.white};
-        min-height: 57px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    strong {
+        margin-right: .3rem;
+        text-transform: uppercase;
     }
     a {
         background-color: ${({theme}) => theme.secondary};

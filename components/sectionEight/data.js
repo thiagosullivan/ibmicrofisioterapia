@@ -1,22 +1,22 @@
 export const Data = [
     {
         question: "Como se inscrever ?",
-        answer: "Você pode realizar a sua inscrição totalmente gratuita aqui mesmo no nosso portal. Escolha o curso de interesse, o modelo de ensino e a localidade mais próximas. Depois disso, basta selecionar a opção que se enquadra às suas necessidades.",
+        answer: "Fale agora mesmo com o nosso time por meio do WhatsApp. Clique em qualquer um dos botões 'Inscreva-se já!' em nosso site e seja direcionado.",
     },
     {
-        question: "Como funciona o Dis ?",
-        answer: "Resposta 2",
+        question: "O curso será presencial ou online?",
+        answer: "O curso será 100% presencial, ministrado pelo Professor Daniel Grosjean, Traduzido simultaneamente e apoiado por: Dra. Rosana Ancona Mateus, Dr. Rodolfo Biazi e Dr. Rodrigo Rabbotini",
     },
     {
-        question: "Plataforma virtual EAD",
-        answer: "Resposta 3"
+        question: "Quem assinará o meu certificado?",
+        answer: "Os certificados serão emitidos pelo IBM-Instituto Brasileiro de Microfisioterapia e assinados pelo Professor Daniela Grosjean e demais apoiadores."
     },
     {
-        question: "Portal do Aluno",
-        answer: "Resposta 4"
+        question: "O curso será apenas na cidade de São Paulo?",
+        answer: "No ano de 2022 o Professor Daniel Grosjean disponibilizou até o momento apenas a agenda do mês de setembro, ou seja, é bastante provável que neste ano ocorra apenas este evento."
     },
     {
-        question: "Orientação para vestibular",
-        answer: "Resposta 5"
+        question: "O Professor Daniel Grosjean estará presente?",
+        answer: "SIM. O curso será ministrado pessoalmente pelo Professor Daniel Grosjean. Aproveite esta oportunidade para adquirir conhecimento diretamente da fonte criadora da microfisoterapia no mundo."
     }
 ]

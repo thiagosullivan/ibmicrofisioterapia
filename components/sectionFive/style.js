@@ -14,11 +14,15 @@ export const SectioFiveContainer = styled.section`
             justify-content: center;
             margin-bottom: 3rem;
 
+            @media screen and (max-width: 770px){
+                flex-direction: column;
+            }
+
             .secFive__top__text {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                max-width: 300px;
+                max-width: 500px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 margin-left: 1.5rem;
@@ -28,10 +32,12 @@ export const SectioFiveContainer = styled.section`
                     font-size: 3rem;
                     font-family: 'Inika', serif;
                     color: ${({theme}) => theme.white};
+                    margin-bottom: 1rem;
                 }
 
                 p {
                     color: ${({theme}) => theme.fourth};
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -76,6 +82,12 @@ export const SectioFiveContainer = styled.section`
                 text-align: center;
                 max-width: 250px;
             }
+        }
+
+        .secFive__video {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
         }
     }
 `;

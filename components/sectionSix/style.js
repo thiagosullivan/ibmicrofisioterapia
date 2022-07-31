@@ -72,7 +72,7 @@ export const SecSixCard = styled.div`
         img {
             width: 100px;
             height: 100px;
-            border-radius: 50%;
+            border-radius: 50%;            
             
             @media screen and (max-width: 550px){
                 width: 65px !important;
@@ -97,12 +97,12 @@ export const SecSixCard = styled.div`
             h4 {
                 color: ${({theme}) => theme.third};
                 font-family: 'Montserrat', sans-serif;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 font-weight: 700;
             }
             span {
                 text-transform: uppercase;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }             
         }
     }
@@ -112,5 +112,9 @@ export const SecSixCard = styled.div`
         width: 100%;
         text-align: justify;
         line-height: 1.5;
+    }
+
+    .sixCard__txt li {
+        padding-left: .5rem;
     }
 `;

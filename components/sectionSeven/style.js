@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SecSevenContainer = styled.section`
     background-color: ${({theme}) => theme.primary};
-    padding: 3rem 1rem 8rem;
+    padding: 3rem 1rem 4rem;
 
     .secSeven__content {
         max-width: 1350px;
@@ -13,8 +13,32 @@ export const SecSevenContainer = styled.section`
             color: ${({theme}) => theme.white};
             font-family: 'Inika', serif;
             font-size: 2.25rem;
-            margin-bottom: 8rem;
-        }       
+            margin-bottom: 3rem;
+        }
+
+        .secSeven__img {
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        a {
+            padding: 12px 50px;
+            max-width: 300px;
+            border-radius: 5px;
+            background-color: ${({theme}) => theme.secondary};
+            font-family: 'Inika', serif;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            transition: all 150ms ease-in;
+            display: block;
+            margin: 3rem auto 0;
+
+            &:hover {
+                box-shadow: 0 2px 5px rgba(0,0,0,.40);
+            }
+        }
+
 
         .secSeven__text {
             background-color: ${({theme}) => theme.white};
