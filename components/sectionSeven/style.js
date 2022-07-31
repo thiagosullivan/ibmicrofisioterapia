@@ -84,5 +84,22 @@ export const SecSevenContainer = styled.section`
             }
         }
     }
+
+    @media screen and (max-width: 700px){
+        .secSeven__content .secSeven__text {
+            transform: rotate(0deg) !important;
+            max-width: 500px !important;
+            height: unset !important;
+            padding: 4rem;
+        }
+        .secSeven__content .secSeven__text .secSeven__text__content {
+            transform: rotate(0deg) !important;
+        }
+    }
+    @media screen and (max-width: 450px){
+        .secSeven__content .secSeven__text {
+            padding: 2rem;
+        }
+    }
 `;
 

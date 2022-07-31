@@ -6,6 +6,7 @@ import Header from '../components/header/Header';
 import SectionEight from '../components/sectionEight/SectionEight';
 import SectionFive from '../components/sectionFive/SectionFive';
 import SectionFour from '../components/sectionFour/SectionFour';
+import SectionNine from '../components/sectionNine/sectionNine';
 import SectionSeven from '../components/sectionSeven/SectionSeven';
 import SectionSix from '../components/sectionSix/SectionSix';
 import SectionThree from '../components/sectionThree/SectionThree';
@@ -24,6 +25,7 @@ export default function Home() {
         <Banner />
         <SectionTwo />
         <SectionThree />
+        <SectionNine />
         <SectionFour />
         <SectionFive />
         <SectionSix />

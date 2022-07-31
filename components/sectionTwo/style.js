@@ -15,16 +15,53 @@ export const SecTwoContainer = styled.section`
     .secTwo__bottom {
         display: flex;
         justify-content: center;        
-        
+        align-items: center;
 
         @media screen and (max-width: 1200px){
             flex-wrap: wrap;
+        }
+
+        @media screen and (max-width: 980px) {
+            flex-direction: column;
+        }
+    }
+
+    .secTwo_col1 {
+        width: 45%;
+        margin-right: 4rem;
+    }
+    .secTwo_col2 {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1190px){
+        .secTwo_col1 {
+            width: 35%;
+        }
+        .secTwo_col2 {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 980px) {
+        .secTwo_col1 {
+            width: 100%;
+            margin: 0 auto 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .secTwo_col2 {
+            max-width: 600px;
+            width: 100%;
         }
     }
 `;
 
 export const SecTwoCard = styled.div`
-    max-width: 415px;
+    max-width: 550px;
     width: 100%;
     border: 1px solid ${({theme}) => theme.greythird};
     border-radius: 90px;
@@ -56,6 +93,10 @@ export const SecTwoCard = styled.div`
         width: 100%;  */
         font-family: 'Montserrat', sans-serif;
         font-size: 0.9rem;
+    }
+
+    @media screen and (max-width: 1190px){
+        max-width: 500px;
     }
 `;
 
