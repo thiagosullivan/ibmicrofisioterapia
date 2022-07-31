@@ -19,7 +19,7 @@ function SectionTwo() {
                     </div>
                     <div className='secTwo_text'>
                         <p>Dr. Rodolfo Biazi</p>
-                        <a href="https://instagram.com/drrodolfobiazi" target="_blank">
+                        <a href="https://instagram.com/drrodolfobiazi" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
                         </a>
                     </div>
@@ -30,7 +30,7 @@ function SectionTwo() {
                     </div>
                     <div className='secTwo_text'>
                         <p>Dr. Rodrigo Rabbottini</p>
-                        <a href="https://instagram.com/rodrigorabbottini" target="_blank">
+                        <a href="https://instagram.com/rodrigorabbottini" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
                         </a>
                     </div>                    
@@ -41,7 +41,7 @@ function SectionTwo() {
                     </div>
                     <div className='secTwo_text'>
                         <p>Dra. Rosana Ancona Mateus</p>
-                        <a href="https://instagram.com/rosanaancona" target="_blank">
+                        <a href="https://instagram.com/rosanaancona" target="_blank" rel="noreferrer noopener">
                             <AiOutlineInstagram />
                         </a>
                     </div>
