@@ -22,14 +22,14 @@ export const SectioFiveContainer = styled.section`
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                max-width: 500px;
+                max-width: 345px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 margin-left: 1.5rem;
 
                 h2 {
                     font-weight: bold;
-                    font-size: 3rem;
+                    font-size: 2.6rem;
                     font-family: 'Inika', serif;
                     color: ${({theme}) => theme.white};
                     margin-bottom: 1rem;
