@@ -12,7 +12,8 @@ function SectionFive() {
             <div className='secFive__top'>
                 <Image src={secFive} width={300} height={300}/>
                 <div className='secFive__top__text'>
-                    <h2>Principais Dúvidas &#40;assista e saiba mais&#41;</h2>
+                    <h2>Principais Dúvidas</h2>
+                    <span>&#40;assista e saiba mais&#41;</span>
                     <p>Dr. Rodrigo Rabbottini esclarece as principais dúvidas.</p>
                 </div>
             </div>

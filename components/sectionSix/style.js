@@ -51,6 +51,7 @@ export const SecSixContainer = styled.section`
 export const SecSixCard = styled.div`
     box-shadow: 0 5px 10px rgba(0,0,0,.3);
     max-width: 500px;
+    width: 100%;
     border-radius: 10px;
     padding: 2rem;
     margin-right: 1rem;

@@ -15,7 +15,7 @@ function Header() {
           <div className='header__contact'>
             <a>
               <FaPhoneAlt />
-              <span>(43) 9999-9999</span>
+              <span>&#40;43&#41; 99190-0107</span>
             </a>
             <a>
               <MdEmail />

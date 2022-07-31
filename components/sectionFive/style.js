@@ -29,7 +29,14 @@ export const SectioFiveContainer = styled.section`
 
                 h2 {
                     font-weight: bold;
-                    font-size: 2.6rem;
+                    font-size: 2.2rem;
+                    font-family: 'Inika', serif;
+                    color: ${({theme}) => theme.white};
+                    margin-bottom: 1rem;
+                }
+                span {
+                    font-weight: bold;
+                    font-size: 1.6rem;
                     font-family: 'Inika', serif;
                     color: ${({theme}) => theme.white};
                     margin-bottom: 1rem;
