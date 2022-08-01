@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { BsTelegram } from 'react-icons/bs';
 import { SecFourCard, SectionFourContainer } from './style';
 
 function SectionFour() {
@@ -29,6 +30,10 @@ function SectionFour() {
                 </Link>
             </SecFourCard>
         </div>
+        <a className='btn__telegram' href="https://t.me/+XQqt0UM5R3hmMmZh" target="_blank" rel="noreferrer noopener">
+            <BsTelegram />
+            Clique e Participe do Nosso Grupo no Telegram
+        </a>
     </SectionFourContainer>
   )
 }

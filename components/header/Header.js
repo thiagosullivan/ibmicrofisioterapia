@@ -13,26 +13,26 @@ function Header() {
       <TopHeader>
         <div className='topheader__content'>
           <div className='header__contact'>
-            <a>
+            <a href="tel:5543991900107">
               <FaPhoneAlt />
               <span>&#40;43&#41; 99190-0107</span>
             </a>
-            <a>
+            <a href="mailto:contato@ibmicrofisioterapia.com.br" >
               <MdEmail />
               <span>contato@ibmicrofisioterapia.com.br</span>
             </a>
           </div>
           <div className='header__social'>
-            <Link href="https://facebook.com">
+            <Link href="https://www.facebook.com/ibmicrofisioterapia">
               <a><AiFillFacebook/></a>
             </Link>
-            <Link href="https://instagram.com">
+            <Link href="https://www.instagram.com/ibmicrofisioterapia">
               <a><AiFillInstagram/></a>
             </Link>
-            <Link href="https://youtube.com">
+            <Link href="https://www.youtube.com/channel/UCp-iA0Ur3VNrfXAMXgocdMQ">
               <a><AiFillYoutube/></a>
             </Link>
-            <Link href="https://twitter.com">
+            <Link href="https://twitter.com/InstitutoIbm">
               <a><AiOutlineTwitter/></a>
             </Link>
           </div>

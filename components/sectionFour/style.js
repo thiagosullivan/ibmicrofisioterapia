@@ -20,6 +20,29 @@ export const SectionFourContainer = styled.section`
             flex-wrap: wrap;
         }
     }
+
+    .btn__telegram {
+        background-color: #0088cc;
+        color: ${({theme}) => theme.white};
+        margin: 3rem auto 0;
+        text-align: center;
+        max-width: 300px;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        font-weight: bold;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        transition: all 150ms ease-in;
+
+        &:hover {
+            box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+        }
+        svg {
+            font-size: 3.5rem;
+            margin-right: 5px;
+        }
+    }
 `;
 
 export const SecFourCard = styled.div`
