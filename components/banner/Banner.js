@@ -8,7 +8,9 @@ function Banner() {
   return (
     <BannerContainer>
         <div className='banner__content'>
-          <Image src={bannerOne} alt="Banner 1"/>
+          <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">
+            <Image src={bannerOne} alt="Banner 1"/>
+          </a>
           <Image src={bannerTwo} alt="Banner 2"/>
         </div>
     </BannerContainer>

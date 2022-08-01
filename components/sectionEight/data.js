@@ -9,7 +9,7 @@ export const Data = [
     },
     {
         question: "Quem assinará o meu certificado?",
-        answer: "Os certificados serão emitidos pelo IBM-Instituto Brasileiro de Microfisioterapia e assinados pelo Professor Daniela Grosjean e demais apoiadores."
+        answer: "Os certificados serão emitidos pelo IBM-Instituto Brasileiro de Microfisioterapia e assinados pelo Professor Daniel Grosjean e demais apoiadores."
     },
     {
         question: "O curso será apenas na cidade de São Paulo?",
