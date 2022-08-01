@@ -14,4 +14,10 @@ export const SectionNineContainer = styled.section`
         font-size: 2.25rem;
         margin-bottom: 3rem;
     }
+
+    @media screen and (max-width: 500px){
+        h2 {
+            font-size: 2rem;
+        }
+    }
 `

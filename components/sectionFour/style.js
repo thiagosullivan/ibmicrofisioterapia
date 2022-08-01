@@ -43,6 +43,12 @@ export const SectionFourContainer = styled.section`
             margin-right: 5px;
         }
     }
+
+    @media screen and (max-width: 500px){
+        h2 {
+            font-size: 2rem;
+        }
+    }
 `;
 
 export const SecFourCard = styled.div`

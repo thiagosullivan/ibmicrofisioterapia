@@ -20,18 +20,18 @@ function SectionSix() {
                     </div>
                 </div>
                 <div className='sixCard__txt'>
-                    <p>Graduado em fisioterapia</p>
-                    <p>Pós graduado em terapia manual e postural</p>
-                    <p>Mestre em bioengenharia</p>
+                    <p>Graduado em Fisioterapia</p>
+                    <p>Pós Graduado em Terapia Manual e Postural</p>
+                    <p>Mestre em Bioengenharia</p>
                     <ul>
                         <p><strong>Especializações:</strong></p>
                         <li>- Microfisioterapia,</li>
-                        <li>- Leitura biológica,</li>
-                        <li>- Fisioterapia integrativa,</li>
+                        <li>- Leitura Biológica,</li>
+                        <li>- Fisioterapia Integrativa,</li>
                         <li>- Hipnose,</li>
                         <li>- Podoposturologia,</li>
-                        <li>- ENM - equilíbrio neuro-muscular,</li>
-                        <li>- Terapia craniossacral,</li>
+                        <li>- ENM - Equilíbrio Neuro-Muscular,</li>
+                        <li>- Terapia Craniossacral,</li>
                         <li>- Naturopatia,</li>
                         <li>- Osteopatia</li>  
                     </ul>
@@ -48,11 +48,11 @@ function SectionSix() {
                 </div>
                 <div className='sixCard__txt'>
                     <p>Graduação em Fisioterapia</p>
-                    <p>Pós graduado em Terapia Manual e Postural</p>
-                    <p>Pós graduado em Traumato Ortopedia e Desportiva</p>
+                    <p>Pós Graduado em Terapia Manual e Postural</p>
+                    <p>Pós Graduado em Traumato Ortopedia e Desportiva</p>
                     <ul>
                         <p><strong>Especializações:</strong></p>
-                        <li>- Formação internacional em Microfisioterapia</li>
+                        <li>- Formação Internacional em Microfisioterapia</li>
                         <li>- Formação Internacional em Leitura Biológica</li>
                         <li>- Formação Internacional em Memórias e ciclos de vida</li>
                         <li>- Formação Internacional em Posturoterapia Neurossensorial</li>
@@ -70,18 +70,18 @@ function SectionSix() {
                     </div>
                 </div>
                 <div className='sixCard__txt'>
-                        <p>Graduada em fisioterapia pela UNIBAN </p>
-                        <p>Pós graduada em terapia manual e postural </p>
-                        <p>Pós graduada em ortopedia e traumatologia</p>
+                        <p>Graduada em Fisioterapia pela Uniban</p>
+                        <p>Pós Graduada em Terapia Manual e Postural</p>
+                        <p>PPós Graduada em Ortopedia e Traumatologia</p>
                     <ul>
                         <p><strong>Especializações:</strong></p>
-                        <li>- Formação internacional em microfisioterapia</li>
-                        <li>- Formação internacional em leitura biológica</li>
+                        <li>- Formação Internacional em Microfisioterapia</li>
+                        <li>- Formação Internacional em Leitura Biológicaa</li>
                         <li>- Hipnose</li>
-                        <li>- Formação internacional em ENM - equilíbrio neuro-muscular</li>
-                        <li>- Terapia craniossacral</li>
-                        <li>- Florais de bach / araretama e california entre outros</li>
-                        <li>- Professora na área de microfisioterapia</li>
+                        <li>- Formação internacional em ENM - Equilíbrio Neuro-Muscular</li>
+                        <li>- Terapia Craniossacral</li>
+                        <li>- Florais de Bach - Araretama e California, entre outros</li>
+                        <li>- Professora na Área de Microfisioterapia</li>
                     </ul>
                 </div>
             </SecSixCard>

@@ -72,6 +72,10 @@ export const SecEightContainer = styled.section`
                 text-align: center;
                 max-width: 250px;
             }
+
+            h2 {
+                font-size: 2rem;
+            }
         }
     }
     

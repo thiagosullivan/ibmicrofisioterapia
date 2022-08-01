@@ -108,6 +108,12 @@ export const SecSevenContainer = styled.section`
                 }
             }
         }
+
+        @media screen and (max-width: 500px){
+            h2 {
+                font-size: 2rem;
+            }
+        }
     }
 
     @media screen and (max-width: 700px){

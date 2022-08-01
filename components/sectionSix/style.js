@@ -47,6 +47,12 @@ export const SecSixContainer = styled.section`
             max-width: 250px;
         }
     }
+
+    @media screen and (max-width: 500px){
+        h2 {
+            font-size: 2rem;
+        }
+    }
 `;
 
 export const SecSixCard = styled.div`
@@ -70,6 +76,7 @@ export const SecSixCard = styled.div`
         display: flex;
         align-items: center;
         margin-bottom: 2rem;
+        min-height: 130px;
 
         img {
             width: 100px;
@@ -105,7 +112,15 @@ export const SecSixCard = styled.div`
             span {
                 text-transform: uppercase;
                 font-size: 1.1rem;
-            }             
+            }
+            @media screen and (max-width: 1280px){
+                h4 {
+                    font-size: 1.2rem;
+                }
+                span {
+                    font-size: 1rem;
+                }
+            }
         }
     }
 

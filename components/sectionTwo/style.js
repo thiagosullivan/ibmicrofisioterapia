@@ -131,6 +131,19 @@ export const SecTwoCard = styled.div`
     @media screen and (max-width: 1065px){
         width: 100%;
     }
+    @media screen and (max-width: 415px){
+        display: flex;
+        flex-direction: column;
+
+        .secTwo__icon {
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+        .secTwo_text {
+            text-align: center;
+            align-items: center;
+        }
+    }
 `;
 
 export const SectionTwoImg = styled.div`

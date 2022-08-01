@@ -13,21 +13,21 @@ function Footer() {
         <Image src={LogoFooter} width={150} height={150} />
         <div className='footer__contact'>
           <div className='footer__social'>
-              <Link href="https://www.facebook.com/ibmicrofisioterapia">
-                <a><AiFillFacebook/></a>
+              <Link href="https://www.facebook.com/ibmicrofisioterapia" passHref>
+                <a target="_blank" rel="noreferrer noopener"><AiFillFacebook/></a>
               </Link>
-              <Link href="https://www.instagram.com/ibmicrofisioterapia">
-                <a><AiFillInstagram/></a>
+              <Link href="https://www.instagram.com/ibmicrofisioterapia" passHref>
+                <a target="_blank" rel="noreferrer noopener"><AiFillInstagram/></a>
               </Link>
-              <Link href="https://www.youtube.com/channel/UCp-iA0Ur3VNrfXAMXgocdMQ">
-                <a><AiFillYoutube/></a>
+              <Link href="https://www.youtube.com/channel/UCp-iA0Ur3VNrfXAMXgocdMQ" passHref>
+                <a target="_blank" rel="noreferrer noopener"><AiFillYoutube/></a>
               </Link>
-              <Link href="https://twitter.com/InstitutoIbm">
-                <a><AiOutlineTwitter/></a>
+              <Link href="https://twitter.com/InstitutoIbm" passHref>
+                <a target="_blank" rel="noreferrer noopener"><AiOutlineTwitter/></a>
               </Link>
           </div>
           <div className='footer__contact__two'>
-            <a href="tel:5543991900107">
+            <a href="https://api.whatsapp.com/send?phone=5543991900107" target="_blank" rel="noreferrer noopener">
               <FaPhoneAlt />
               <span>&#40;43&#41; 99190-0107</span>
             </a>

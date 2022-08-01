@@ -21,6 +21,12 @@ export const SectionThreeContainer = styled.section`
             text-align: center;
             margin-bottom: 3rem;
         }
+
+        @media screen and (max-width: 500px){
+            h2 {
+                font-size: 2rem;
+            }
+        }
     }
 
     .secThree__bottom {
