@@ -31,7 +31,7 @@ function SectionThree() {
             <SecThreeCard>
                 <div className='secThree_title'>
                     <AiOutlineCalendar />
-                    <h4>Curso de Atualização do P9 <br/> <span>&#40;antigo E4 e E5&#41;</span></h4>
+                    <h4>Curso de Atualização do P9 <br/> <span>&#40;E4 e E5&#41;</span></h4>
                 </div>
                 <div className='secThree__txts'>
                     <p><strong>Data:</strong> 17/09 e 18/09</p>
@@ -48,7 +48,7 @@ function SectionThree() {
             <SecThreeCard>
                 <div className='secThree_title'>
                     <AiOutlineCalendar />
-                    <h4>Curso completo P9 <br/> <span>&#40;antigo E4 e E5&#41;</span></h4>
+                    <h4>Curso completo P9 <br/> <span>&#40;E4 e E5&#41;</span></h4>
                 </div>
                 <div className='secThree__txts'>
                     <p><strong>Data:</strong> 19/09 a 23/09</p>

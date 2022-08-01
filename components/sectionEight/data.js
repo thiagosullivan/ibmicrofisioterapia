@@ -20,7 +20,7 @@ export const Data = [
         answer: "SIM. O curso será ministrado pessoalmente pelo Professor Daniel Grosjean. Aproveite esta oportunidade para adquirir conhecimento diretamente da fonte criadora da microfisoterapia no mundo."
     },
     {
-        question: "Por que fazer o P9 (antigo E4 e E5)?",
+        question: "Por que fazer o P9 (E4 e E5)?",
         answer: "A microfisioterapia é uma técnica muito abrangente sob vários aspectos . Podemos tratar uma causa específica, uma intoxicação, uma contusão, ou mesmo um problema emocional, e ainda assim trataremos o todo, o indivíduo como ser único que somos. Quando completamos a técnica com E3 trabalhamos com as proteções  sobre toda a nossa base, porém agora poderemos avançar e ver as proteções que teremos sobre elas. Além do mais, trabalharemos com o que os xenoticos  podem deixar de marcas, além de toda a nova pesquisa que o criador da técnica Daniel Grosjean, está trabalhando atualmente.  Poderemos trabalhar sobre pacientes aos quais não obtivemos resposta satisfatória podendo assim evoluir no tratamento. Sabemos que a Microfisioterapia não é soberana, mais teremos mais ferramentas para evolução de nosso trabalho."
     }
 ]

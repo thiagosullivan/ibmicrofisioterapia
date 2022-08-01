@@ -17,14 +17,14 @@ function SectionFour() {
             </SecFourCard>
             <SecFourCard>
                 <h4>2</h4>
-                <p>Atualização P9 <br/>&#40;antigo E4 e E5&#41; - <br/> Exclusivo para alunos&#40;as&#41; que já tenham feito o P9. Estes&#40;as&#41; também poderão adquirir e participar do P9 completo.</p>
+                <p>Atualização P9 <br/>&#40;E4 e E5&#41; - <br/> Exclusivo para alunos&#40;as&#41; que já tenham feito o P9. Estes&#40;as&#41; também poderão adquirir e participar do P9 completo.</p>
                 <Link href="https://api.whatsapp.com/send?phone=5543991900107&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20curso%20de%20microfisioterapia%20com%20o%20Professor%20Daniel%20Grosjean" passHref>          
                     <a target="_blank" rel="noreferrer noopener">Inscreva-se já!</a>
                 </Link>
             </SecFourCard>
             <SecFourCard>
                 <h4>3</h4>
-                <p>P9 Completo <br/>&#40;antigo E4 e E5&#41; - <br/>É preciso que o aluno&#40;a&#41; tenha feito P7 e P8.</p>
+                <p>P9 Completo <br/>&#40;E4 e E5&#41; - <br/>É preciso que o aluno&#40;a&#41; tenha feito P7 e P8.</p>
                 <Link href="https://api.whatsapp.com/send?phone=5543991900107&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20a%20respeito%20do%20curso%20de%20microfisioterapia%20com%20o%20Professor%20Daniel%20Grosjean" passHref>          
                     <a target="_blank" rel="noreferrer noopener">Inscreva-se já!</a>
                 </Link>
