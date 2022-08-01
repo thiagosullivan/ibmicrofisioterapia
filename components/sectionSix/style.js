@@ -32,6 +32,7 @@ export const SecSixContainer = styled.section`
         transition: all 150ms ease-in;
         display: block;
         margin: 3rem auto 0;
+        text-align: center;
 
         &:hover {
             box-shadow: 0 2px 5px rgba(0,0,0,.40);
@@ -111,10 +112,8 @@ export const SecSixCard = styled.div`
     p {
         max-width: 450px;
         width: 100%;
-        text-align: justify;
+        text-align: left;
         line-height: 1.5;
-
-        
     }
 
     .sixCard__txt ul {

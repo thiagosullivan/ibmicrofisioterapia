@@ -92,6 +92,7 @@ export const BottomHeader = styled.header`
             font-size: 1.5rem;
             text-transform: uppercase;
             transition: all 150ms ease-in;
+            text-align: center;
 
             &:hover {
                 box-shadow: 0 2px 5px rgba(0,0,0,.40);

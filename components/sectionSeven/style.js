@@ -33,6 +33,7 @@ export const SecSevenContainer = styled.section`
             transition: all 150ms ease-in;
             display: block;
             margin: 3rem auto 0;
+            text-align: center;
 
             &:hover {
                 box-shadow: 0 2px 5px rgba(0,0,0,.40);

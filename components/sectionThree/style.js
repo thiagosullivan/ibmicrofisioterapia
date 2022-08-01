@@ -89,5 +89,6 @@ export const SecThreeCard = styled.section`
         padding: .5rem 1rem;
         border-radius: 5px;
         font-weight: bold;
+        text-align: center;
     }
 `;

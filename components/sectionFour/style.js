@@ -80,5 +80,6 @@ export const SecFourCard = styled.div`
         padding: .5rem 1rem;
         border-radius: 5px;
         font-weight: bold;
+        text-align: center;
     }
 `;
