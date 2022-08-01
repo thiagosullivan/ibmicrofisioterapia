@@ -63,6 +63,10 @@ export const SecThreeCard = styled.section`
         align-items: center;
         margin-bottom: 2rem;
         height: 95px;
+
+        /* span {
+            text-transform: lowercase;
+        } */
     }
 
     @media screen and (max-width: 1100px){
