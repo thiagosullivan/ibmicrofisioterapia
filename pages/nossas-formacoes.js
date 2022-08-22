@@ -14,8 +14,8 @@ function FormationsPage() {
       <Header />
 
       <main>
-        <h1>Nossas Formações</h1>
-        <p className='page__subtitle'>Formações em Microfisioterapia</p>
+        <h1>Formação em Microfisioterapia</h1>
+        <p className='page__subtitle'>Do Básico ao Avançado</p>
         <Formacoes />
       </main>
 
