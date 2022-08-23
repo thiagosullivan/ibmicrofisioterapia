@@ -9,7 +9,7 @@ export const ArtigosContainer = styled.section`
 
 export const ArticleItem = styled.section`
     border-top: 1px solid rgba(0,0,0,.1);
-    padding-top: 2rem;
+    padding: 2rem 1rem 0;
     margin-bottom: 3rem;
 
     &:last-child {
@@ -43,6 +43,26 @@ export const ArticleItem = styled.section`
         &:hover {
             background-color: ${({ theme }) => darken(0.1, theme.primary)};
         }
+    }
+
+    @media screen and (max-width: 650px){
+      h3 {
+        font-size: 1.2rem;
+      }
+    }
+    @media screen and (max-width: 450px){
+      h3 {
+        font-size: 1rem;
+      }
+      .btn_download {
+        max-width: 150px;
+        font-size: 1rem;
+        padding: .8rem;
+
+        svg {
+            font-size: 1.5rem;
+        }
+      }
     }
 `;
 

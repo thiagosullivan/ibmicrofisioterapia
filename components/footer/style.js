@@ -12,6 +12,10 @@ export const FooterContainer = styled.footer`
         color: ${({theme}) => theme.white};
     }
 
+    img {
+        cursor: pointer;
+    }
+
     .footer__social {
         text-align: center;
         font-size: 2rem;

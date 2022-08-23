@@ -99,6 +99,10 @@ export const BottomHeader = styled.header`
             }
         }
 
+        img {
+            cursor: pointer;
+        }
+
         @media screen and (max-width: 600px){
             display: none;
         }

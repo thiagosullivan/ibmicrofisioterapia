@@ -74,5 +74,16 @@ export default createGlobalStyle`
       font-size: 1.2rem;
       margin-bottom: 2rem;
     }
+
+    @media screen and (max-width: 650px){
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    @media screen and (max-width: 450px){
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
   }
 `;

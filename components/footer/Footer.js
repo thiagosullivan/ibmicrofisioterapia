@@ -10,7 +10,9 @@ import { MdEmail } from 'react-icons/md';
 function Footer() {
   return (
     <FooterContainer>
+      <Link href="/">
         <Image src={LogoFooter} width={150} height={150} />
+      </Link>
         <div className='footer__contact'>
           <div className='footer__social'>
               <Link href="https://www.facebook.com/ibmicrofisioterapia" passHref>
