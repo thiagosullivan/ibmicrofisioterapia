@@ -1,16 +1,22 @@
 import React from 'react';
 import { MdOutlineDownloadForOffline } from 'react-icons/md';
+import {Data} from './data';
 import { ArtigosContainer, ArticleItem } from './style';
 
 function Artigos() {
   return (
     <ArtigosContainer>
-        <ArticleItem>
-
-            <a class="btn_download" download="Cirurgia" href="/common/uploads/midias_arquivos/4c72be0589b1fee06f1af6632d8ae802.pdf">
-                <MdOutlineDownloadForOffline />
-            </a>
-        </ArticleItem>
+        {Data.map((item, index) => {
+          return (
+            <ArticleItem>
+                <h3>{item.title}</h3>
+                <a className="btn_download" download="Cirurgia" href={item.link}>
+                    <MdOutlineDownloadForOffline />
+                    Download
+                </a>
+            </ArticleItem>
+          )
+        })}
     </ArtigosContainer>
   )
 }

@@ -16,8 +16,8 @@ function ArtigosPage() {
       <Header />
 
       <main>
-        <h1>Artigos</h1>
-        <p className='page__subtitle'>Lorem ipsum</p>
+        <h1>Artigos para referência e estudo de microfisioterapia</h1>
+        <p className='page__subtitle'>Boa Leitura</p>
         <Artigos />
       </main>
 
