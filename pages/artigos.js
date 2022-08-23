@@ -2,9 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Artigos from '../components/artigos/Artigos';
 import Footer from '../components/footer/Footer';
-import Formacoes from '../components/formacoes/Formacoes';
 import Header from '../components/header/Header';
-import QaSec from '../components/QASec/QaSec';
 
 function ArtigosPage() {
   return (
