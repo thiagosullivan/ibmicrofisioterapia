@@ -11,7 +11,7 @@ function Footer() {
   return (
     <FooterContainer>
       <Link href="/">
-        <Image src={LogoFooter} width={150} height={150} />
+        <Image src={LogoFooter} width={150} height={150} alt="Logo IBM"/>
       </Link>
         <div className='footer__contact'>
           <div className='footer__social'>

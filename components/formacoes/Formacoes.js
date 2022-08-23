@@ -15,6 +15,7 @@ function Formacoes() {
                     src={FormBasica}
                     width={300}
                     height={93}
+                    alt="Formação Básica"
                 />
             </div>
             <h3>1º Módulo &#40;A/B/C&#41;:</h3>
@@ -38,6 +39,7 @@ function Formacoes() {
                     src={Form1}
                     width={300}
                     height={93}
+                    alt="Formação Básica 2"
                 />
             </div>
             <h3>2º Módulo &#40;NP1/NP2/NP3&#41;</h3>
@@ -73,6 +75,7 @@ function Formacoes() {
                     src={Form2}
                     width={300}
                     height={93}
+                    alt="Formação Avançada 1"
                 />
             </div>
             <h3>1º Avançado - P3 – P6 &#40;E1-E2&#41;</h3>
@@ -89,6 +92,7 @@ function Formacoes() {
                     src={Form3}
                     width={300}
                     height={93}
+                    alt="Formação Avançada 2"
                 />
             </div>
             <h3>2º Avançado – P7 – P8 (E3)</h3>
