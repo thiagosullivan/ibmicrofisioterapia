@@ -44,7 +44,7 @@ export default createGlobalStyle`
     height: 100%;
     overflow-y: hidden;
   }
-  #formacoes {
+  /* #formacoes {
     h1 {
       text-align: center;
       color: ${({theme}) => theme.primary};
@@ -85,5 +85,5 @@ export default createGlobalStyle`
         font-size: 1.5rem;
       }
     }
-  }
+  } */
 `;
