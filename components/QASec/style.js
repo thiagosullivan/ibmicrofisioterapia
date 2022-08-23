@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const SecEightContainer = styled.section`
+export const QaSecContainer = styled.section`
     padding: 3rem 1rem;
 
-    .secEight__content {
+    .QaSec__content {
         max-width: 1350px;
         margin: 0 auto;
 
@@ -15,12 +15,12 @@ export const SecEightContainer = styled.section`
             margin-bottom: 3rem;
         }
     
-        .secEight__accordion {
+        .QaSec__accordion {
     
             .accordion__item {
                 border-bottom: 1px solid ${({theme}) => theme.white};
     
-                .secEight__question {
+                .QaSec__question {
                     background-color: ${({theme}) => theme.third};
                     box-shadow: 0 2px 2px rgba(0,0,0,.15);
                     position: relative;
