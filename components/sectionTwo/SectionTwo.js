@@ -15,7 +15,7 @@ function SectionTwo() {
                 <h2>O curso contará com a participação <br/>de mais três profissionais.</h2>
                 <SecTwoCard>
                     <div className='secTwo__icon'>
-                        <Image src={Rodolfo} layout="fill"/> 
+                        <Image src={Rodolfo} layout="fill" alt="Doutor Rodolfo"/> 
                     </div>
                     <div className='secTwo_text'>
                         <p>Dr. Rodolfo Biazi</p>
@@ -27,7 +27,7 @@ function SectionTwo() {
                 </SecTwoCard>
                 <SecTwoCard>
                     <div className='secTwo__icon'>
-                        <Image src={Rodrigo} layout="fill"/> 
+                        <Image src={Rodrigo} layout="fill" alt="Doutor Rodrigo"/> 
                     </div>
                     <div className='secTwo_text'>
                         <p>Dr. Rodrigo Rabbottini</p>
@@ -39,7 +39,7 @@ function SectionTwo() {
                 </SecTwoCard>
                 <SecTwoCard>
                     <div className='secTwo__icon'>
-                        <Image src={Rosana} layout="fill"/> 
+                        <Image src={Rosana} layout="fill" alt="Doutora Rosana"/> 
                     </div>
                     <div className='secTwo_text'>
                         <p>Dra. Rosana Ancona Mateus</p>

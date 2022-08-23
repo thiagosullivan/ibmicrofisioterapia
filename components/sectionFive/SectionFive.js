@@ -10,7 +10,7 @@ function SectionFive() {
     <SectioFiveContainer>
         <div className='secFive__content'>
             <div className='secFive__top'>
-                <Image src={secFive} width={300} height={300}/>
+                <Image src={secFive} width={300} height={300} alt="Principais Dúvidas"/>
                 <div className='secFive__top__text'>
                     <h2>Principais Dúvidas</h2>
                     <span>&#40;assista e saiba mais&#41;</span>

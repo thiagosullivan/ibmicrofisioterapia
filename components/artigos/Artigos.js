@@ -8,7 +8,7 @@ function Artigos() {
     <ArtigosContainer>
         {Data.map((item, index) => {
           return (
-            <ArticleItem>
+            <ArticleItem key={index}>
                 <h3>{item.title}</h3>
                 <a className="btn_download" download="Cirurgia" href={item.link}>
                     <MdOutlineDownloadForOffline />
