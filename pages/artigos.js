@@ -16,7 +16,7 @@ function ArtigosPage() {
       <main>
         <h1>Artigos para referência e estudo de microfisioterapia</h1>
         <p className='page__subtitle'>Boa Leitura</p>
-        {/* <Artigos /> */}
+        <Artigos />
       </main>
 
       <Footer />
